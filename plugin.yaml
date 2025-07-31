@@ -1,0 +1,8 @@
+name: "tree"
+version: "0.1.0"
+usage: "tree [flags] RELEASE"
+description: "Get a whole view of a helm release"
+command: "$HELM_PLUGIN_DIR/bin/helm-tree"
+hooks:
+  install: "cd $HELM_PLUGIN_DIR; scripts/install_plugin.sh"
+  update: "cd $HELM_PLUGIN_DIR; scripts/install_plugin.sh"
