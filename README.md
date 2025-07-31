@@ -26,7 +26,7 @@ helm plugin install https://github.com/major1201/helm-tree
 
 By default, the plugin will only search "namespaced" objects in the same namespace as the specified object.
 
-You can use the -A or --all-namespaces flag to search namespaced and non-namespaced objects in all namespaces.
+You can use the `-A` or `--all-namespaces` flag to search namespaced and non-namespaced objects in all namespaces.
 
 ## License
 
